@@ -1,0 +1,66 @@
+[server]
+# Lets the app serve the bundled fonts in static/fonts (no external requests).
+enableStaticServing = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+primaryColor = "#0F9D8F"
+font = "Inter, sans-serif"
+headingFont = "SpaceGrotesk, sans-serif"
+codeFont = "JetBrainsMono, monospace"
+baseRadius = "large"
+buttonRadius = "full"
+
+# Fonts are open-licensed (SIL OFL 1.1); licence files are in static/fonts/.
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/fonts/inter-latin-400-normal.woff2"
+weight = "400"
+style = "normal"
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/fonts/inter-latin-500-normal.woff2"
+weight = "500"
+style = "normal"
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/fonts/inter-latin-600-normal.woff2"
+weight = "600"
+style = "normal"
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/fonts/inter-latin-700-normal.woff2"
+weight = "700"
+style = "normal"
+
+[[theme.fontFaces]]
+family = "SpaceGrotesk"
+url = "app/static/fonts/space-grotesk-latin-500-normal.woff2"
+weight = "500"
+style = "normal"
+
+[[theme.fontFaces]]
+family = "SpaceGrotesk"
+url = "app/static/fonts/space-grotesk-latin-700-normal.woff2"
+weight = "700"
+style = "normal"
+
+[[theme.fontFaces]]
+family = "JetBrainsMono"
+url = "app/static/fonts/jetbrains-mono-latin-400-normal.woff2"
+weight = "400"
+style = "normal"
+
+[[theme.fontFaces]]
+family = "JetBrainsMono"
+url = "app/static/fonts/jetbrains-mono-latin-600-normal.woff2"
+weight = "600"
+style = "normal"
