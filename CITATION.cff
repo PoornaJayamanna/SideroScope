@@ -8,11 +8,9 @@ license: MIT
 authors:
   - family-names: Jayamanna
     given-names: Poorna
-    # Optional: add your ORCID and affiliation here, for example
-    # orcid: "https://orcid.org/0000-0000-0000-0000"
-    # affiliation: "Your institute"
-# After you create the GitHub repository, uncomment and fill in:
-# repository-code: "https://github.com/YOUR-USERNAME/sideroscope"
+    orcid: https://orcid.org/0009-0008-9089-3901
+    affiliation: Northumbria University, UK
+repository-code: "https://github.com/PoornaJayamanna/sideroscope"
 keywords:
   - bioinformatics
   - sequence analysis
