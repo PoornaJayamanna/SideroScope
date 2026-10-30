@@ -39,6 +39,8 @@ streamlit run app.py
 
 Streamlit prints a local address (usually http://localhost:8501) and opens it in your browser.
 
+Or just use https://sideroscope.streamlit.app/
+
 ## Using your own data
 
 The bundled files in `examples/` are **randomly generated demo sequences, not a real organism**. To explore real data:
